@@ -1,2 +1,2 @@
-mv ./NEW_SERVICE_TMP/* ./
-rm -Rf ./NEW_SERVICE_TMP
+mv ./{{cookiecutter.service_folder}}-tmp/* ./
+rm -Rf ./{{cookiecutter.service_folder}}-tmp
