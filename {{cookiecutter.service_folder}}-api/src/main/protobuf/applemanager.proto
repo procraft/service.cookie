@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package libicraft;
+
+import "google/protobuf/wrappers.proto";
+
+
+service {{cookiecutter.service_camel}} {
+  rpc FindApple(FindAppleRequest) returns (FindAppleResponse);
+}
+
+message FindAppleRequest {
+  int32 id = 1;
+}
+
+message FindAppleResponse {
+  AppleData data = 1;
+}
+
+// Data types
+message AppleData {
+  int32 id = 1;
+  string color = 2;
+  AppleKind kind = 3;
+}
+
+
+enum AppleKind {
+  Unknown = 0;
+  Good = 1;
+  Bad = 2;
+}
