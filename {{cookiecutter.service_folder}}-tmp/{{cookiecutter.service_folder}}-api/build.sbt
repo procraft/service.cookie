@@ -1,4 +1,4 @@
-// Service that manages apples.
+// {{cookiecutter.service_desc}}
 name := "{{cookiecutter.service_folder}}-api"
 organization := "libicraft"
 version := "0.0.1"

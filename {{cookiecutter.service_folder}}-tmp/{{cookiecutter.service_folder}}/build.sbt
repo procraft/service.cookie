@@ -1,4 +1,4 @@
-// Service that manages ads and campaigns.
+// {{cookiecutter.service_desc}}
 name := "{{cookiecutter.service_folder}}"
 organization := "libicraft"
 version := "0.0.1"
