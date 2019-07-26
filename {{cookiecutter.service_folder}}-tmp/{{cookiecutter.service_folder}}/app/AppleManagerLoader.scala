@@ -9,7 +9,7 @@ import com.softwaremill.macwire._
 
 import router.Routes
 import controllers.GrpcHandler
-import db.{{{cookiecutter.service_camel}}PostgresProfile, AppleRepo}
+import db.{AppleRepo, {{cookiecutter.service_camel}}PostgresProfile}
 
 
 /**
