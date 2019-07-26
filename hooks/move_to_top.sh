@@ -1,0 +1,2 @@
+mv ./NEW_SERVICE_TMP/* ./
+rm -Rf ./NEW_SERVICE_TMP
